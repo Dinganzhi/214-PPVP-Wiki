@@ -1,0 +1,21 @@
+# 依赖文件夹
+node_modules/
+
+# VitePress 构建产物和缓存
+.vitepress/dist/
+.vitepress/cache/
+dist/
+.cache/
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 操作系统垃圾文件
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
