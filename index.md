@@ -5,6 +5,6 @@
 本Wiki希望收录有关214服务器各个方面的信息，为各玩家提供查询  
 
 如果想加入维护工作，请[加入群聊][qqgroup]
-### 此wiki由dinganzhi创建，mc_desk；金羽白雀进行维护工作
+此wiki由dinganzhi创建，mc_desk；金羽白雀进行维护工作
 
 [qqgroup]:https://qm.qq.com/q/GVQXDCARu6
