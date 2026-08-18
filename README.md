@@ -1,2 +1,2 @@
-# 214-PPVP-Wiki
-A Wiki about PPVP of 214 Server
+# 214-Wiki
+214服务器的Wiki！
