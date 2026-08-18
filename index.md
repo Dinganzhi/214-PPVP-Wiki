@@ -1,7 +1,7 @@
 
 # 欢迎来到214ppvpwiki
 
-### 此wiki由dinganzhi创建，mc_desk进行维护工作
+### 此wiki由dinganzhi创建，mc_desk；金羽白雀进行维护工作
 
 
 ### 如果想加入维护工作，请加入群聊：
