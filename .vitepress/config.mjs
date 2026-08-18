@@ -27,8 +27,8 @@ export default defineConfig({
       {
         text: "相关链接",
         items: [
-          { text: "GitHub 仓库", link: "https://github.com/Dinganzhi/214-PPVP-Wiki" },
-          { text: "问题反馈", link: "https://github.com/Dinganzhi/214-PPVP-Wiki/issues" },
+          { text: "GitHub 仓库", link: "https://github.com/Dinganzhi/214-Wiki" },
+          { text: "问题反馈", link: "https://github.com/Dinganzhi/214-Wiki/issues" },
         ],
       },
     ],
@@ -36,20 +36,21 @@ export default defineConfig({
     // ----- 侧边栏 -----
     sidebar: [
       {
-        text: "ppvp-wiki",
+        text: "PPVP",
+        collapsed: false,
         items: [
-          { text: "ppvp/ppvp-wiki介绍", link: "/Sequence/introduction-ppvp" },
-          { text: "职业介绍", link: "/Sequence/kitsIntroduction" },
-          { text: "命令使用", link: "/guide/command" },
-          { text: "配置", link: "/guide/config" },
-        ],
-      },
-      {
-        text: "开发者教程",
-        items: [
-          { text: "准备工作", link: "/develop-guide" },
-          { text: "基础信息", link: "/develop-guide/info" },
-          { text: "线路数据", link: "/develop-guide/lines" },
+          { text: "PPVP介绍", link: "/ppvp" },
+          {
+            text: "职业介绍", 
+            collapsed: true,
+            link: "/ppvp/kits",
+            items: [
+              { text: "铁血战士", link: "/ppvp/kits/predator.md"},
+              { text: "盘古", link: "/ppvp/kits/pangu.md"},
+              { text: "神射手", link: "/ppvp/kits/sharpshooter.md"},
+              { text: "刺客", link: "/ppvp/kits/assassin.md"},
+            ],
+          },
         ],
       },
     ],
