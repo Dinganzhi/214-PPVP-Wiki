@@ -39,7 +39,7 @@ export default defineConfig({
         text: "ppvp-wiki",
         items: [
           { text: "ppvp/ppvp-wiki介绍", link: "/Sequence/introduction-ppvp" },
-          { text: "快速开始", link: "/guide/start" },
+          { text: "职业介绍", link: "/Sequence/kitsIntroduction" },
           { text: "命令使用", link: "/guide/command" },
           { text: "配置", link: "/guide/config" },
         ],
