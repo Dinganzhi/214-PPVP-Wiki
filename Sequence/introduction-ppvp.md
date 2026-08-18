@@ -12,5 +12,5 @@
 
 >[视频链接][video]
 
-[sbcooding]:https://markdown.com.cn
+[sbcooding]:https://qm.qq.com/q/GVQXDCARu6
 [video]:https://b23.tv/P86Vz88

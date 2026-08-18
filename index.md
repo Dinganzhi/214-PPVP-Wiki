@@ -10,4 +10,4 @@
 > [!INFO]
 > 下列是快速跳转
 
-[sbcooding]:https://markdown.com.cn
+[sbcooding]:https://qm.qq.com/q/GVQXDCARu6
