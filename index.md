@@ -1,13 +1,9 @@
+# 欢迎来到214 Wiki
 
-# 欢迎来到214ppvpwiki
+214 Wiki 是214服务器的Wiki  
+214服务器，是一个MCJE的小游戏服务器，自2020年开服以来已经运营了6年多  
+本Wiki希望收录有关214服务器各个方面的信息，为各玩家提供查询  
 
-### 此wiki由dinganzhi创建，mc_desk进行维护工作
+如果想加入维护工作，请[加入群聊][qqgroup]
 
-
-### 如果想加入维护工作，请加入群聊：
-### [点我跳转][sbcooding]
-
-> [!INFO]
-> 下列是快速跳转
-
-[sbcooding]:https://qm.qq.com/q/GVQXDCARu6
+[qqgroup]:https://qm.qq.com/q/GVQXDCARu6

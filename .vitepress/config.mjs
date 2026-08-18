@@ -1,8 +1,6 @@
 import { defineConfig } from "vitepress";
-import { withSidebar } from "vitepress-sidebar";
 
-// VitePress 配置
-const vitePressOptions = {
+export default defineConfig({
   // ========== 站点基本信息 ==========
   title: "214Wiki",
   description: "214服务器的官方Wiki",
@@ -21,7 +19,7 @@ const vitePressOptions = {
     // ----- Logo（如有）-----
     // logo: "/logo.svg",
 
-    // ----- 导航栏（保持不变）-----
+    // ----- 导航栏 -----
     nav: [
       { text: "首页", link: "/" },
       { text: "第一章节", link: "/" }, // 未完成
@@ -35,48 +33,82 @@ const vitePressOptions = {
       },
     ],
 
-    // ========== 界面文字中文化（保持不变）==========
+    // ----- 侧边栏 -----
+    sidebar: [
+      {
+        text: "ppvp-wiki",
+        items: [
+          { text: "ppvp/ppvp-wiki介绍", link: "/Sequence/introduction-ppvp" },
+          { text: "快速开始", link: "/guide/start" },
+          { text: "命令使用", link: "/guide/command" },
+          { text: "配置", link: "/guide/config" },
+        ],
+      },
+      {
+        text: "开发者教程",
+        items: [
+          { text: "准备工作", link: "/develop-guide" },
+          { text: "基础信息", link: "/develop-guide/info" },
+          { text: "线路数据", link: "/develop-guide/lines" },
+        ],
+      },
+    ],
+
+    // ==========================================
+    // ========== 界面文字中文化 ==========
+    // ==========================================
+
+    // ----- 主题切换按钮（Appearance）-----
     darkModeSwitchLabel: "切换主题",
     darkModeSwitchTitle: "切换到深色模式",
     lightModeSwitchTitle: "切换到浅色模式",
 
+    // ----- 翻页按钮（Next page / Previous page）-----
     docFooter: {
       prev: "上一篇",
       next: "下一篇",
     },
 
+    // ----- 右侧大纲标题（On this page）-----
     outlineTitle: "页面内容",
+
+    // ----- 返回顶部（Return to top）-----
     returnToTopLabel: "返回顶部",
+
+    // ----- 移动端菜单按钮（Menu）-----
     sidebarMenuLabel: "菜单",
 
+    // ----- 最后更新时间（Last updated）-----
     lastUpdated: {
       text: "最后更新于",
     },
 
-    // ========== 搜索（本地搜索-完整汉化）==========
+    // ==========================================
+    // ========== 搜索（本地搜索-完整汉化） ==========
+    // ==========================================
     search: {
-      provider: "local",
-      options: {
-        placeholder: "搜索文档",
-        translations: {
-          button: {
-            buttonText: "搜索文档",
-            buttonAriaLabel: "搜索文档",
-          },
-          modal: {
-            displayDetails: "显示详情",
-            resetButtonTitle: "重置搜索",
-            backButtonTitle: "返回",
-            noResultsText: "没有找到相关结果",
-            footer: {
-              selectText: "选择",
-              navigateText: "切换",
-              closeText: "关闭",
-            },
-          },
+  provider: "local",
+  options: {
+    placeholder: "搜索文档",
+    translations: {
+      button: {
+        buttonText: "搜索文档",
+        buttonAriaLabel: "搜索文档",
+      },
+      modal: {
+        displayDetails: "显示详情",
+        resetButtonTitle: "重置搜索",
+        backButtonTitle: "返回",
+        noResultsText: "没有找到相关结果",
+        footer: {
+          selectText: "选择",
+          navigateText: "切换",
+          closeText: "关闭",
         },
       },
     },
+  },
+},
 
     // ----- 404 页面 -----
     notFound: {
@@ -91,16 +123,4 @@ const vitePressOptions = {
     lineNumbers: true,
     codeCopyButtonTitle: "复制代码",
   },
-};
-
-// ========== 侧边栏插件配置 ==========
-const sidebarOptions = {
-  documentRootPath: "/",       // 扫描根目录
-  collapsed: false,            // 是否默认折叠所有分组
-  capitalizeFirst: true,       // 自动将标题首字母大写
-};
-
-// 导出用 withSidebar 包装后的配置
-export default defineConfig(
-  withSidebar(vitePressOptions, sidebarOptions)
-);
+});
