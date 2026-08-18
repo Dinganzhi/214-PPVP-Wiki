@@ -1,0 +1,5 @@
+
+   /* .vitepress/theme/index.css */
+   .vp-doc blockquote {
+       border-left: 6px solid #ff0000; /* 修改此颜色值即可 */
+   }
