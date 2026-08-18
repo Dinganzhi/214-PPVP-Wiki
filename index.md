@@ -4,12 +4,10 @@
 ### 此wiki由dinganzhi创建，mc_desk进行维护工作
 
 
-> [!info]
+### 如果想加入维护工作，请加入群聊：
+### [点我跳转][sbcooding]
+
+> [!INFO]
 > 下列是快速跳转
 
-
-
-
-
-
-
+[sbcooding]:https://markdown.com.cn

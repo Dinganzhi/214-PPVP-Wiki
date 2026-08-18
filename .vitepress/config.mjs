@@ -2,8 +2,8 @@ import { defineConfig } from "vitepress";
 
 export default defineConfig({
   // ========== 站点基本信息 ==========
-  title: "214 PPVP Wiki",
-  description: "214服务器PPVP的官方Wiki",
+  title: "214Wiki",
+  description: "214服务器的官方Wiki",
   lang: "zh-CN",
 
   // ========== 国际化配置 ==========
@@ -36,9 +36,9 @@ export default defineConfig({
     // ----- 侧边栏 -----
     sidebar: [
       {
-        text: "用户教程",
+        text: "ppvp-wiki",
         items: [
-          { text: "介绍", link: "/guide/introduction" },
+          { text: "ppvp/ppvp-wiki介绍", link: "/Sequence/introduction-ppvp" },
           { text: "快速开始", link: "/guide/start" },
           { text: "命令使用", link: "/guide/command" },
           { text: "配置", link: "/guide/config" },
