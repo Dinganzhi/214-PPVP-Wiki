@@ -57,6 +57,7 @@ export default defineConfig({
                 { text: "旧地图", link: "/ppvp/map/map.md"},
                   { text: "新地图", link: "/ppvp/map/map2.md"},
                      { text: "据点守卫", link: "/ppvp/map/Guard.md"},
+                     { text: "地道", link: "/ppvp/map/Tunnel.md"},
                          { text: "特殊生物-蜜蜂", link: "/ppvp/map/bee.md"},
                            { text: "特殊区域-地狱", link: "/ppvp/map/nether.md"},
                            { text: "特殊区域-scp67区域", link: "/ppvp/map/scp67.md"},
