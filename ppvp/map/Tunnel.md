@@ -3,4 +3,4 @@
 
 地道四通八达  
 下列是一张统计图
-![图](prons/Tunnel.jpg)
+![图](prons/Tunnel.svg)
