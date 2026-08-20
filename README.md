@@ -1,10 +1,10 @@
-<script async defer src="https://buttons.github.io/buttons.js"></script>
+import GithubButton from 'vue-github-button'
 
 # 214-Wiki
 
 214服务器的Wiki！
 
-<a class="github-button" href="https://github.com/Dinganzhi/214-Wiki" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star Dinganzhi/214-Wiki on GitHub">Star</a>
+<github-button href="https://github.com/Dinganzhi/214-Wiki" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star Dinganzhi/214-Wiki on GitHub">Star</github-button>
 
 ## 声明
 
