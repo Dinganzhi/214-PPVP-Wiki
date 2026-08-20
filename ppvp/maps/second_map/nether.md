@@ -3,10 +3,10 @@
 进入方式：进入**地狱之门**
 
 下界景观：  
-![nether](/src/img/second_map/nether_view.png)
+![nether](/img/second_map/nether_view.png)
 
 出口：  
-![nether2](/src/img/second_map/nether_exit.png)
+![nether2](/img/second_map/nether_exit.png)
 
 ## 特性：
 

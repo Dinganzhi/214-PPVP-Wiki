@@ -3,4 +3,4 @@
 这个生物原型来自 Ajajah!!! 的electric hornet  
 **何意味**
 
-![bee](/src/img/second_map/bee.png)
+![bee](/img/second_map/bee.png)
