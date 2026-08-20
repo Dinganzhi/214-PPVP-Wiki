@@ -111,6 +111,19 @@ export default defineConfig({
                         items: [
                             { text: "起床个人商店", link: "/bw/mechanism/shop" },
                         ],
+                                            },
+                     {
+                        text: "起床地图介绍",
+                        collapsed: true,
+                        link: "/bw/maps",
+                        items: [
+                            { text: "Artemis", link: "/bw/maps/Artemis" },
+                            { text: "Bw-mosdalr", link: "/bw/maps/Bw-mosdalr" },
+                            { text: "Daolong", link: "/bw/maps/Daolong" },
+                            { text: "Frost", link: "/bw/maps/Frost" },
+                            { text: "Garden", link: "/bw/maps/Garden" },
+                            { text: "Steampunk", link: "/bw/maps/Steampunk" },
+                        ],
                     },
                 ]
             }
