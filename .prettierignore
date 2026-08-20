@@ -1,0 +1,17 @@
+# 依赖目录
+node_modules/
+
+# 锁文件和系统文件
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+.DS_Store
+
+# 构建产物
+dist/
+.vuepress/dist/
+.vuepress/cache/
+.vitepress/dist/
+.vitepress/cache/
+
+LICENSE
