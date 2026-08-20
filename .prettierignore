@@ -13,3 +13,5 @@ dist/
 .vuepress/cache/
 .vitepress/dist/
 .vitepress/cache/
+
+LICENSE
