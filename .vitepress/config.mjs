@@ -87,10 +87,36 @@ export default defineConfig({
                             },
                             { text: "", link: "/ppvp/maps/mechanics/guard" },
                         ],
-                    },
-                ],
+              
+                    }, 
+                ], 
             },
+            { text: "BW-WIKI",
+                collapsed: false,
+                items: [
+                     { text: "起床介绍", link: "/bw" },
+                  {
+                        text: "物品/装备介绍",
+                        collapsed: true,
+                        link: "/bw/bw-kits",
+                        items: [
+                            { text: "大部分方块", link: "/bw/bw-kits/blocks" },
+                             { text: "剑", link: "/bw/bw-kits/swords" },
+                        ],
+                    },
+                     {
+                        text: "机制介绍",
+                        collapsed: true,
+                        link: "/bw/mechanism",
+                        items: [
+                            { text: "起床个人商店", link: "/bw/mechanism/shop" },
+                        ],
+                    },
+                ]
+            }
+        
         ],
+      
 
         // ==========================================
         // ========== 界面文字中文化 ==========
@@ -150,8 +176,8 @@ export default defineConfig({
 
         // ----- 404 页面 -----
         notFound: {
-            title: "页面未找到",
-            quote: "此页面不存在，请检查链接地址是否正确",
+            title: "页面未找到喵~",
+            quote: "此页面不存在，请检查链接地址是否正确喵~",
             linkText: "返回首页",
         },
     },
