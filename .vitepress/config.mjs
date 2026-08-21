@@ -85,7 +85,8 @@ export default defineConfig({
                                     { text: "特殊生物-蜜蜂", link: "/ppvp/maps/second_map/bee" },
                                 ],
                             },
-                            { text: "", link: "/ppvp/maps/mechanics/guard" },
+                            { text: "据点守卫", link: "/ppvp/maps/mechanics/guard" },  
+                            { text: "地图武器-高射炮", link: "/ppvp/maps/mechanics/Cannon" },
                         ],
               
                     }, 
