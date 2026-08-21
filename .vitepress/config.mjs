@@ -22,7 +22,7 @@ export default defineConfig({
         nav: [
             { text: "首页", link: "/" },
             { text: "PPVP", link: "/ppvp" },
-            { text: "第二章节", link: "/" }, // 未完成
+            { text: "BW-wiki", link: "/bw" }, // 未完成
             {
                 text: "相关链接",
                 items: [
@@ -110,6 +110,7 @@ export default defineConfig({
                         link: "/bw/mechanism",
                         items: [
                             { text: "起床个人商店", link: "/bw/mechanism/shop" },
+                            { text: "起床团队商店", link: "/bw/mechanism/Team-shop" },
                         ],
                                             },
                      {
