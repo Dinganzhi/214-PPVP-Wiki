@@ -22,7 +22,7 @@ export default defineConfig({
         nav: [
             { text: "首页", link: "/" },
             { text: "PPVP", link: "/ppvp" },
-            { text: "第二章节", link: "/" }, // 未完成
+            { text: "BW-wiki", link: "/bw" }, // 未完成
             {
                 text: "相关链接",
                 items: [
@@ -85,12 +85,90 @@ export default defineConfig({
                                     { text: "特殊生物-蜜蜂", link: "/ppvp/maps/second_map/bee" },
                                 ],
                             },
-                            { text: "", link: "/ppvp/maps/mechanics/guard" },
+                            { text: "据点守卫", link: "/ppvp/maps/mechanics/guard" },  
+                            { text: "地图武器-高射炮", link: "/ppvp/maps/mechanics/Cannon" },
+                        ],
+              
+                    }, 
+                ], 
+            },
+            { text: "BW-WIKI",
+                collapsed: false,
+                items: [
+                     { text: "起床介绍", link: "/bw" },
+                  {
+                        text: "物品/装备介绍",
+                        collapsed: true,
+                        link: "/bw/bw-kits",
+                        items: [
+                            { text: "大部分方块", link: "/bw/bw-kits/blocks" },
+                             { text: "剑", link: "/bw/bw-kits/swords" },
                         ],
                     },
-                ],
-            },
+                     {
+                        text: "机制介绍",
+                        collapsed: true,
+                        link: "/bw/mechanism",
+                        items: [
+                            { text: "起床个人商店", link: "/bw/mechanism/shop" },
+                            { text: "起床团队商店", link: "/bw/mechanism/Team-shop" },
+                        ],
+                                            },
+                     {
+                        text: "起床地图介绍",
+                        collapsed: true,
+                        link: "/bw/maps",
+                        items: [
+                            { text: "Artemis", link: "/bw/maps/Artemis" },
+                            { text: "Bw-mosdalr", link: "/bw/maps/Bw-mosdalr" },
+                            { text: "Daolong", link: "/bw/maps/Daolong" },
+                            { text: "Frost", link: "/bw/maps/Frost" },
+                            { text: "Garden", link: "/bw/maps/Garden" },
+                            { text: "Steampunk", link: "/bw/maps/Steampunk" },
+                        ],
+                    },
+                ]
+            },     
+            { text: "点歌功能wiki",
+                collapsed: false,
+                items: [
+                     { text: "点歌功能介绍", link: "/music-wiki" },
+                     {
+                        text: "游戏内点歌介绍",
+                        collapsed: true,
+                        link: "/music-wiki/m-help-game",
+                        items: [
+                            { text: "id点歌", link: "/music-wiki/m-help-game/m-id" },
+                            { text: "搜索歌曲", link: "/music-wiki/m-help-game/m-search" },
+                            { text: "投放好听的钥匙", link: "/music-wiki/m-help-game/m-like" },
+                            { text: "投放难听的钥匙", link: "/music-wiki/m-help-game/m-unlike" },
+                            { text: "评论", link: "/music-wiki/m-help-game/m-comment" },
+                            { text: "查看评论", link: "/music-wiki/m-help-game/m-comments" },
+                            { text: "取消点歌", link: "/music-wiki/m-help-game/m-cancel" },
+                            { text: "查看列表", link: "/music-wiki/m-help-game/m-list" },
+                            { text: "投票切歌", link: "/music-wiki/m-help-game/m-vote" },
+                        ],
+                                            },
+                     {
+                        text: "214启动器点歌介绍",
+                        collapsed: true,
+                        link: "/music-wiki/m-help-lach",
+                        items: [
+                            { text: "加入听歌", link: "/music-wiki/m-help-lach/join" },
+                            { text: "搜索点歌", link: "/music-wiki/m-help-lach/search" },
+                            { text: "取消点歌", link: "/music-wiki/m-help-lach/cancel" },
+                            { text: "评论/查看评论", link: "/music-wiki/m-help-lach/comment" },
+                            { text: "投放难听/好听的钥匙", link: "/music-wiki/m-help-lach/un.like" },
+                            { text: "投票切歌", link: "/music-wiki/m-help-lach/vote" },
+                            { text: "查看列表", link: "/music-wiki/m-help-lach/list" },
+                            { text: "桌面歌词", link: "/music-wiki/m-help-lach/lyrics" },
+                        ],
+                    },
+                ]
+            } 
+                   
         ],
+      
 
         // ==========================================
         // ========== 界面文字中文化 ==========
@@ -150,8 +228,8 @@ export default defineConfig({
 
         // ----- 404 页面 -----
         notFound: {
-            title: "页面未找到",
-            quote: "此页面不存在，请检查链接地址是否正确",
+            title: "页面未找到喵~",
+            quote: "此页面不存在，请检查链接地址是否正确喵~",
             linkText: "返回首页",
         },
     },
@@ -162,3 +240,4 @@ export default defineConfig({
         codeCopyButtonTitle: "复制代码",
     },
 });
+
