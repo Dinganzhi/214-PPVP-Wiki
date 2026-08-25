@@ -128,8 +128,45 @@ export default defineConfig({
                         ],
                     },
                 ]
-            }
-        
+            },     
+            { text: "点歌功能wiki",
+                collapsed: false,
+                items: [
+                     { text: "点歌功能介绍", link: "/music-wiki" },
+                     {
+                        text: "游戏内点歌介绍",
+                        collapsed: true,
+                        link: "/music-wiki/m-help-game",
+                        items: [
+                            { text: "id点歌", link: "/music-wiki/m-help-game/m-id" },
+                            { text: "搜索歌曲", link: "/music-wiki/m-help-game/m-search" },
+                            { text: "投放好听的钥匙", link: "/music-wiki/m-help-game/m-like" },
+                            { text: "投放难听的钥匙", link: "/music-wiki/m-help-game/m-unlike" },
+                            { text: "评论", link: "/music-wiki/m-help-game/m-comment" },
+                            { text: "查看评论", link: "/music-wiki/m-help-game/m-comments" },
+                            { text: "取消点歌", link: "/music-wiki/m-help-game/m-cancel" },
+                            { text: "查看列表", link: "/music-wiki/m-help-game/m-list" },
+                            { text: "投票切歌", link: "/music-wiki/m-help-game/m-vote" },
+                        ],
+                                            },
+                     {
+                        text: "214启动器点歌介绍",
+                        collapsed: true,
+                        link: "/music-wiki/m-help-lach",
+                        items: [
+                            { text: "加入听歌", link: "/music-wiki/m-help-lach/join" },
+                            { text: "搜索点歌", link: "/music-wiki/m-help-lach/search" },
+                            { text: "取消点歌", link: "/music-wiki/m-help-lach/cancel" },
+                            { text: "评论/查看评论", link: "/music-wiki/m-help-lach/comment" },
+                            { text: "投放难听/好听的钥匙", link: "/music-wiki/m-help-lach/un.like" },
+                            { text: "投票切歌", link: "/music-wiki/m-help-lach/vote" },
+                            { text: "查看列表", link: "/music-wiki/m-help-lach/list" },
+                            { text: "桌面歌词", link: "/music-wiki/m-help-lach/lyrics" },
+                        ],
+                    },
+                ]
+            } 
+                   
         ],
       
 
@@ -203,3 +240,4 @@ export default defineConfig({
         codeCopyButtonTitle: "复制代码",
     },
 });
+
