@@ -1,0 +1,12 @@
+/* 定义 Unifont 字体 */
+@font-face {
+  font-family: 'Unifont';
+  src: url('/font/unifont-17.0.05.otf') format('opentype');
+  font-display: swap;
+}
+
+/* 开启 Unifont 时应用字体（避开代码块） */
+html.use-unifont:not(code):not(pre),
+html.use-unifont *:not(code):not(pre) {
+  font-family: 'Unifont', 'Fallback', sans-serif !important;
+}
